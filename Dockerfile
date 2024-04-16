@@ -11,7 +11,7 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy the rest of your application code into the container
-COPY app.py
+COPY app.py /app
 
 # Specify the command to run when the container starts
 CMD ["python", "app.py"]
