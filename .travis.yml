@@ -1,5 +1,5 @@
 language: python
-python: "3.12"
+python: "3.12.1"
 services: docker
 install:
   -easy_install distribute
@@ -7,4 +7,4 @@ install:
 script:
   -echo 'start docker build'
   -docker build -t flask-app .
-  -echo 'finish docker build'git
+  -echo 'finish docker build'
