@@ -8,4 +8,4 @@ script:
   - echo 'start docker build'
   - docker build -t flask-app .
   - echo 'finish docker build'
-  - docker run flask-app
+
